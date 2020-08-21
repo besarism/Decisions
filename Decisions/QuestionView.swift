@@ -8,14 +8,33 @@
 
 import SwiftUI
 
-struct QuestionView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Question: Identifiable {
+    let id = UUID()
+    let title: String
+    let description: String
+    let type: QuestionType
+    let value: Any
 }
 
-struct QuestionView_Previews: PreviewProvider {
-    static var previews: some View {
-        QuestionView()
+enum QuestionType {
+    case boolean
+    case radio
+}
+
+
+struct QuestionView: View {
+    let question = Question(title: "Are you going to eat here on monday whatsup kekfelk ffef?", description: "Ktireter", type: .boolean, value: true)
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(question.title)
+                .fontWeight(.bold)
+                .padding(.leading, 10)
+                .frame(height: 20)
+                .lineLimit(3)
+            Text(question.description)
+                .fontWeight(.light)
+                .padding(.leading, 10)
+                .frame(height: 20)
+        }
     }
 }
