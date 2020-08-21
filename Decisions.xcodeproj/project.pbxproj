@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0531C7A82344E4BC00617276 /* ProfileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531C7A72344E4BC00617276 /* ProfileList.swift */; };
+		0531C7AA2344EB7C00617276 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531C7A92344EB7C00617276 /* QuestionView.swift */; };
 		05ADE2CB233BD8CF00A1CFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2CA233BD8CF00A1CFEE /* AppDelegate.swift */; };
 		05ADE2CD233BD8CF00A1CFEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2CC233BD8CF00A1CFEE /* SceneDelegate.swift */; };
 		05ADE2D0233BD8CF00A1CFEE /* Decisions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2CE233BD8CF00A1CFEE /* Decisions.xcdatamodeld */; };
@@ -16,6 +18,7 @@
 		05ADE2DA233BD8D000A1CFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05ADE2D8233BD8D000A1CFEE /* LaunchScreen.storyboard */; };
 		05ADE2E5233BD8D000A1CFEE /* DecisionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2E4233BD8D000A1CFEE /* DecisionsTests.swift */; };
 		05ADE2F0233BD8D000A1CFEE /* DecisionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2EF233BD8D000A1CFEE /* DecisionsUITests.swift */; };
+		05ADE300233BE95300A1CFEE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ADE2FF233BE95300A1CFEE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0531C7A72344E4BC00617276 /* ProfileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileList.swift; sourceTree = "<group>"; };
+		0531C7A92344EB7C00617276 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		05ADE2C7233BD8CF00A1CFEE /* Decisions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decisions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05ADE2CA233BD8CF00A1CFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05ADE2CC233BD8CF00A1CFEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		05ADE2EB233BD8D000A1CFEE /* DecisionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecisionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05ADE2EF233BD8D000A1CFEE /* DecisionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionsUITests.swift; sourceTree = "<group>"; };
 		05ADE2F1233BD8D000A1CFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05ADE2FF233BE95300A1CFEE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				05ADE2DB233BD8D000A1CFEE /* Info.plist */,
 				05ADE2CE233BD8CF00A1CFEE /* Decisions.xcdatamodeld */,
 				05ADE2D5233BD8D000A1CFEE /* Preview Content */,
+				05ADE2FF233BE95300A1CFEE /* LoginView.swift */,
+				0531C7A72344E4BC00617276 /* ProfileList.swift */,
+				0531C7A92344EB7C00617276 /* QuestionView.swift */,
 			);
 			path = Decisions;
 			sourceTree = "<group>";
@@ -270,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05ADE300233BE95300A1CFEE /* LoginView.swift in Sources */,
 				05ADE2D0233BD8CF00A1CFEE /* Decisions.xcdatamodeld in Sources */,
 				05ADE2CB233BD8CF00A1CFEE /* AppDelegate.swift in Sources */,
+				0531C7AA2344EB7C00617276 /* QuestionView.swift in Sources */,
+				0531C7A82344E4BC00617276 /* ProfileList.swift in Sources */,
 				05ADE2D2233BD8CF00A1CFEE /* ContentView.swift in Sources */,
 				05ADE2CD233BD8CF00A1CFEE /* SceneDelegate.swift in Sources */,
 			);
