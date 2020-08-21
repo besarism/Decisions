@@ -6,4 +6,20 @@
 //  Copyright © 2019 Besar Ismaili. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+
+struct LoginView: View {
+    var body: some View {
+        HStack {
+            Text("efefef")
+        }
+    }
+}
+
+struct LoginView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView()
+    }
+}
+
