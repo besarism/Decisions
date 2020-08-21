@@ -18,9 +18,9 @@ struct Person: Identifiable {
 
 struct ProfileList: View {
     var people: [Person] = [
-        .init(firstName: "Steve", lastName: " Wozniak", image: #imageLiteral(resourceName: "Steve_Wozniak"), jobTitle: "Founder of Apple"),
-        .init(firstName: "Steve", lastName: " Jobs", image: #imageLiteral(resourceName: "steve_jobs"), jobTitle: "Apple CEO"),
-        .init(firstName: "Jony", lastName: " Ive", image: #imageLiteral(resourceName: "johny_ive"), jobTitle: "Head of Design")
+        .init(firstName: "Steve", lastName: "Wozniak", image: #imageLiteral(resourceName: "Steve_Wozniak"), jobTitle: "Founder of Apple"),
+        .init(firstName: "Steve", lastName: "Jobs", image: #imageLiteral(resourceName: "steve_jobs"), jobTitle: "Apple CEO"),
+        .init(firstName: "Jony", lastName: "Ive", image: #imageLiteral(resourceName: "johny_ive"), jobTitle: "Head of Design")
     ]
     
     var body: some View {
@@ -49,8 +49,6 @@ struct ProfileList: View {
                     }
                 }
             }
-            
-            
         }
     }
 }
